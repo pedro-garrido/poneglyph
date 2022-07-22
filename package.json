@@ -1,9 +1,9 @@
 {
-  "name": "expressjs-mongoose",
+  "name": "akuma-no-mi-zukan",
   "private": true,
   "version": "1.0.0",
-  "main": "index.js",
-  "author": "Faraz Patankar",
+  "main": "src/index.ts",
+  "author": "belcaik",
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/index.ts",
