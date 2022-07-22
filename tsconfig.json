@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
     "outDir": "dist",
-
-    "incremental": true,
+    "rootDir": "src",
+    // "typeRoots" : ["./node_modules/@types"],
+    // "incremental": true,
     "target": "es6",
     "module": "commonjs",
-    "strict": true,
+    // "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    // "skipLibCheck": true,
+    // "forceConsistentCasingInFileNames": true
   }
 }
