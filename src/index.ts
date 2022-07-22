@@ -7,7 +7,7 @@ import passport from "passport";
 import passportMiddleware from "./middleware/passport";
 
 const app = express();
-const port = process.env.PORT || 3333;
+const port = process.env.PORT || 443;
 
 
 //middleware
