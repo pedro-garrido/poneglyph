@@ -1,3 +1,4 @@
+require("dotenv").config();
 import mongoose from "mongoose";
 
 if (!process.env.MONGO_URL) {
