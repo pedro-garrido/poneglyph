@@ -1,14 +1,14 @@
 import { Router } from "express";
 import { signIn, signUp } from "../controllers/user.controller";
-import passport from "../middleware/passport";
+import passport from "passport";
 const router = Router();
 
-router.post("/signup", signUp);
-
 router.post(
-  "/signin",
+  "/signup",
   passport.authenticate("jwt", { session: false }),
-  signIn
+  signUp
 );
+
+router.post("/signin", signIn);
 
 export default router;
