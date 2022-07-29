@@ -25,6 +25,10 @@ const akumaNoMi = new Schema({
   kwodedNoMiUsers: {
     type: [String],
     required: false,
+  },
+  image: {
+    type: String,
+    required: false,
   }
 });
 
